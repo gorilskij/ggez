@@ -193,6 +193,7 @@ extern crate log;
 
 pub use glam;
 pub use mint;
+pub use wgpu;
 
 pub mod audio;
 pub mod conf;
