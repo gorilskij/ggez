@@ -49,11 +49,11 @@ impl Vertex {
 /// Mesh data stored on the GPU as a vertex and index buffer. Cheap to clone.
 #[derive(Debug, Clone)]
 pub struct Mesh {
-    pub(crate) verts: ArcBuffer,
-    pub(crate) inds: ArcBuffer,
-    pub(crate) vertex_count: usize,
-    pub(crate) index_count: usize,
-    pub(crate) bounds: Rect,
+    pub verts: ArcBuffer,
+    pub inds: ArcBuffer,
+    pub vertex_count: usize,
+    pub index_count: usize,
+    pub bounds: Rect,
 }
 
 impl Mesh {
